@@ -1,0 +1,23 @@
+version: "3"
+services:
+  db:
+    image: postgres
+    container_name: tusity_db
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      POSTGRES_USER: ${DATABASE_USERNAME:?DATABASE_USERNAME env var is missing on .env file}
+      POSTGRES_PASSWORD: ${DATABASE_PASSWORD:?DATABASE_PASSWORD env var is missing on .env file}
+      POSTGRES_DB: ${DATABASE_NAME:?DATABASE_NAME env var is missing on .env file}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+  node_modules:
+
+    # Documentação usada para a construção desse arquivo
+    # https://www.digitalocean.com/community/tutorials/containerizing-a-node-js-application-for-development-with-docker-compose-pt
+    # (principalmente o passo 4)

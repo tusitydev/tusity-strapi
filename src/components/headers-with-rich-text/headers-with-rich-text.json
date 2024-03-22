@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_headers_with_rich_text_headers_with_rich_texts",
+  "info": {
+    "displayName": "headers-with-rich-text"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

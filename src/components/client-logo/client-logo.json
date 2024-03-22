@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_client_logo_client_logos",
+  "info": {
+    "displayName": "clientLogo"
+  },
+  "options": {},
+  "attributes": {
+    "clientLogo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    }
+  }
+}

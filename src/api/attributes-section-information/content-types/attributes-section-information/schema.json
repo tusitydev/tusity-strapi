@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attributes_section_informations",
+  "info": {
+    "singularName": "attributes-section-information",
+    "pluralName": "attributes-section-informations",
+    "displayName": "02 - Attributes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "information": {
+      "displayName": "information",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "information-details.information",
+      "min": 4
+    },
+    "propertyName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "headers": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "headers.headers",
+      "required": true
+    }
+  }
+}

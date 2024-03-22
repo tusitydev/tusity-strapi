@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "leisure_stays_pages",
+  "info": {
+    "singularName": "leisure-stays-page",
+    "pluralName": "leisure-stays-pages",
+    "displayName": "02 - Hotels and Apartments",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "properties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::propertie.propertie"
+    },
+    "recommendation": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "recommendation.recommendation"
+    },
+    "tagsPage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "tags-page.tags-page",
+      "required": true
+    },
+    "main": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "home-main.main"
+      ],
+      "required": true,
+      "min": 2,
+      "max": 2
+    }
+  }
+}

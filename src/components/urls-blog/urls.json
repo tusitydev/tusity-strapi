@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_urls_blog_urls",
+  "info": {
+    "displayName": "urls"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

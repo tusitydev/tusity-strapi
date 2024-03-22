@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_headers_headers",
+  "info": {
+    "displayName": "headers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

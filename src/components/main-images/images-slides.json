@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_main_images_images_slides",
+  "info": {
+    "displayName": "imagesSlides",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hotelLocation": {
+      "type": "string",
+      "required": false
+    },
+    "hotelName": {
+      "type": "string",
+      "required": false
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    }
+  }
+}

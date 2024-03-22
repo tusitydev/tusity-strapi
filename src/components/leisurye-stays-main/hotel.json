@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_leisurye_stays_main_hotels",
+  "info": {
+    "displayName": "hotel"
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "text",
+      "required": true
+    },
+    "h2": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

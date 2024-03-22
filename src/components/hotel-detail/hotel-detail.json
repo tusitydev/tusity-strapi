@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_hotel_detail_hotel_details",
+  "info": {
+    "displayName": "Hotel-detail"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "kind": "singleType",
+  "collectionName": "corporate_stays",
+  "info": {
+    "singularName": "corporate-stay",
+    "pluralName": "corporate-stays",
+    "displayName": "03 - Corporate Stays",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "first-corner.first-corner"
+    },
+    "numberSection": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "cards-numbers.cards-numbers",
+        "headers.headers"
+      ],
+      "required": true,
+      "max": 4
+    },
+    "propertyAttributesSections": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "third-corner.information",
+        "headers.headers"
+      ],
+      "required": true,
+      "max": 5
+    },
+    "backgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "clientsSection": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "headers.headers",
+        "client-logo.client-logo"
+      ]
+    },
+    "sayAboutUs": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "card-say-about-us.card-say-about-us",
+        "headers.headers"
+      ],
+      "required": true
+    },
+    "faqs": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "faq.faq"
+      ],
+      "required": true,
+      "max": 2
+    },
+    "tagsPage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "tags-page.tags-page",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_location_cards_cards",
+  "info": {
+    "displayName": "cards"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    },
+    "localeName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

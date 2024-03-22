@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_headers_attributes_headers_attributes",
+  "info": {
+    "displayName": "headers-attributes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "richtext",
+      "required": true
+    },
+    "backgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "videos"
+      ]
+    }
+  }
+}

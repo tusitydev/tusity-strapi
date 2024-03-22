@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_background_video_background_videos",
+  "info": {
+    "displayName": "Background video"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

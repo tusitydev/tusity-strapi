@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_footer_contact_footers",
+  "info": {
+    "displayName": "Contact-Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

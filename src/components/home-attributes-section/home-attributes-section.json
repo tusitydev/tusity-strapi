@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_attributes_section_home_attributes_sections",
+  "info": {
+    "displayName": "Home-attributes-section"
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "string",
+      "required": true
+    },
+    "backgroundVideo": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

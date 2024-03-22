@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_third_corner_third_corners",
+  "info": {
+    "displayName": "thirdCorner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "richtext",
+      "required": true
+    },
+    "backgroundVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "background-video.background-video"
+    }
+  }
+}

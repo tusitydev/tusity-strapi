@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_brands_brands",
+  "info": {
+    "displayName": "ourBrands",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "info": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

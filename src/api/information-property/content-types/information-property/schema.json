@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "information_properties",
+  "info": {
+    "singularName": "information-property",
+    "pluralName": "information-properties",
+    "displayName": "04 - Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "information": {
+      "displayName": "Cards-information",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "information-details.cards-information"
+    },
+    "propertyName": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "headers": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "headers.headers",
+      "required": true
+    }
+  }
+}

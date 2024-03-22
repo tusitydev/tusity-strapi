@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_leisurye_stays_main_leisurye_stays_mains",
+  "info": {
+    "displayName": "Leisurye stays main"
+  },
+  "options": {},
+  "attributes": {
+    "hotel": {
+      "displayName": "hotel",
+      "type": "component",
+      "repeatable": false,
+      "component": "leisurye-stays-main.hotel"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "kind": "collectionType",
+  "collectionName": "properties",
+  "info": {
+    "singularName": "propertie",
+    "pluralName": "properties",
+    "displayName": "01 - Properties",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "cardImage": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "images.images-field"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "apartment",
+        "hotel"
+      ],
+      "required": true,
+      "default": "apartment"
+    },
+    "tripAdvisor": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "faqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq.faq"
+    },
+    "carouselImages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::image.image"
+    },
+    "main": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "first-corner.first-corner",
+      "required": true
+    },
+    "propertyAttributesSections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::attributes-section-information.attributes-section-information"
+    },
+    "informationProperties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::information-property.information-property"
+    },
+    "recommendation": {
+      "displayName": "Recommendation",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "recommendation.recommendation",
+      "required": false
+    },
+    "miraiId": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mirai-id.mirai-id"
+    },
+    "urlPage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "urls": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "urls-blog.urls",
+      "required": true,
+      "min": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_hotel_detail_attributes",
+  "info": {
+    "displayName": "attributes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

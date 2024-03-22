@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_third_corner_information",
+  "info": {
+    "displayName": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    }
+  }
+}

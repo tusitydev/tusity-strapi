@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_signup_email_section_signup_email_sections",
+  "info": {
+    "displayName": "Signup-email-section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

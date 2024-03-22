@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_cards_numbers_cards_numbers",
+  "info": {
+    "displayName": "cardNumbers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

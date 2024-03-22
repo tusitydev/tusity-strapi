@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_second_corner_information",
+  "info": {
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hotelName": {
+      "type": "string",
+      "required": true
+    },
+    "hotelType": {
+      "type": "enumeration",
+      "enum": [
+        "hotel",
+        "apartment"
+      ],
+      "required": true,
+      "default": "apartment"
+    },
+    "hotelLocation": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images-field"
+    },
+    "properties": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::propertie.propertie"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_second_corner_second_corners",
+  "info": {
+    "displayName": "Second corner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "h3": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

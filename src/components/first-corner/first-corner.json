@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_first_corner_first_corners",
+  "info": {
+    "displayName": "First corner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "string",
+      "required": true
+    },
+    "h2": {
+      "type": "string",
+      "required": true
+    },
+    "imagesSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main-images.images-slides"
+    }
+  }
+}

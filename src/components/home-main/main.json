@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_home_main_mains",
+  "info": {
+    "displayName": "main",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "h1": {
+      "type": "string",
+      "required": true
+    },
+    "h2": {
+      "type": "string",
+      "required": false
+    },
+    "imagesSlides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images-field",
+      "required": true
+    },
+    "propertyType": {
+      "type": "enumeration",
+      "enum": [
+        "hotel",
+        "apartment"
+      ],
+      "required": true,
+      "default": "apartment"
+    }
+  }
+}

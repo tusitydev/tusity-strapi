@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_card_say_about_us_card_say_about_uses",
+  "info": {
+    "displayName": "cardAboutUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "enterprise": {
+      "type": "string",
+      "required": true
+    },
+    "comment": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

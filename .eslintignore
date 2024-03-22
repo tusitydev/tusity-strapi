@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+migrations
+schema.prisma
+certificate.pfx
+plop-templates
+data

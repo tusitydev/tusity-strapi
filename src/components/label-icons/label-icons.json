@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_label_icons_label_icons",
+  "info": {
+    "displayName": "Label-icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

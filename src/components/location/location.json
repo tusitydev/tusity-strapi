@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_location_locations",
+  "info": {
+    "displayName": "Location"
+  },
+  "options": {},
+  "attributes": {
+    "H2": {
+      "type": "string",
+      "required": true
+    },
+    "H3": {
+      "type": "richtext",
+      "required": true
+    },
+    "cards": {
+      "displayName": "cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "location-cards.cards",
+      "required": true
+    }
+  }
+}

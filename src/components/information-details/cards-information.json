@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_information_details_cards_informations",
+  "info": {
+    "displayName": "Cards-information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "addtionnalAtt": {
+      "displayName": "additional-attribute",
+      "type": "component",
+      "repeatable": false,
+      "component": "information-details.additional-attribute"
+    }
+  }
+}

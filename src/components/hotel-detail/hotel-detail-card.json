@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_hotel_detail_hotel_detail_cards",
+  "info": {
+    "displayName": "Hotel-detail-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    }
+  }
+}

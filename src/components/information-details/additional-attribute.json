@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_information_details_additional_attributes",
+  "info": {
+    "displayName": "additional-attribute",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images-field"
+    }
+  }
+}

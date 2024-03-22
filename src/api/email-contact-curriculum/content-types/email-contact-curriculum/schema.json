@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "email_contact_curricula",
+  "info": {
+    "singularName": "email-contact-curriculum",
+    "pluralName": "email-contact-curricula",
+    "displayName": "Email contact curriculum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "toEmails": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

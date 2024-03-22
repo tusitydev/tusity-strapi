@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_information_details_information",
+  "info": {
+    "displayName": "information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    }
+  }
+}

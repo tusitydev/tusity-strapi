@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nav_bar_path_nav_bar_paths",
+  "info": {
+    "displayName": "nav-bar-path",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pathName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

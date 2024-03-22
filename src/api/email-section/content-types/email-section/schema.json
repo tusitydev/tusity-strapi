@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "email_sections",
+  "info": {
+    "singularName": "email-section",
+    "pluralName": "email-sections",
+    "displayName": "08 - Email Marketing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "signUp": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "signup-email-section.signup-email-section"
+      ],
+      "required": true,
+      "max": 1
+    },
+    "carouselImages": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "signup-email-section.background-image",
+      "min": 2,
+      "required": true
+    }
+  }
+}

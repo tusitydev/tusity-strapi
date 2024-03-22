@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_signup_email_section_background_images",
+  "info": {
+    "displayName": "Background-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field",
+      "required": true
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    }
+  }
+}

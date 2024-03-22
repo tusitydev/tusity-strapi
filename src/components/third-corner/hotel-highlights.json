@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_third_corner_hotel_highlights",
+  "info": {
+    "displayName": "Hotel-highlights",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "typeStay": {
+      "type": "enumeration",
+      "enum": [
+        "longStay",
+        "shortStay",
+        "groupsAndEvents"
+      ],
+      "required": true,
+      "default": "shortStay"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "images.images-field",
+      "required": true
+    }
+  }
+}

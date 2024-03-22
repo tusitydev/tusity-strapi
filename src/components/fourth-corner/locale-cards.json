@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_fourth_corner_locale_cards",
+  "info": {
+    "displayName": "Locale-cards"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": false,
+      "component": "images.images-field"
+    },
+    "localeName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
